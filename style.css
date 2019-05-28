@@ -54,3 +54,46 @@ th {
 .cavs {
     background-image: linear-gradient(to right, #6F263D 40%, #041E42)
 }
+
+.info {
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.photoframe {
+    border: 2px solid black;
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#mynav {
+    background: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#mynav a:link {
+    color: white;
+}
+
+#mynav a:visited {
+    color: white;
+}
+
+.info h1,small{
+    color: grey;
+    text-align: center;
+}
