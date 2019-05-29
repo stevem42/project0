@@ -51,6 +51,8 @@ th {
   font-size: 18px;
   margin-top: 50px;
   padding: 15px; }
+  .info li {
+    color: blue; }
 
 .photoframe {
   width: 400px;

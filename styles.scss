@@ -1,4 +1,9 @@
 $margin-top: 50px;
+$lakers-c: #552583;
+$bulls-c: #CE1141;
+$jazz-c: #3E2680;
+$cavs-c: #6F263D;
+
 
 body {
     background-image: linear-gradient(to right, blue, white, red);
@@ -66,6 +71,10 @@ th {
     font-size: 18px;
     margin-top: $margin-top;
     padding: 15px;
+
+    li {
+        color: blue;
+    }
 }
 
 .photoframe {
