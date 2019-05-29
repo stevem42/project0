@@ -1,99 +1,81 @@
 body {
-    background-image: linear-gradient(to right, blue, white, red);
-}
+  background-image: linear-gradient(to right, blue, white, red); }
 
-h1 
-{
-    color: blue;
-    text-align: center;
-}
+h1 {
+  color: blue;
+  text-align: center; }
 
 table {
-    margin: auto;
-    border: 2px solid black;
-    border-collapse: collapse;
-    width: 75%;
-    margin-bottom: 50px;
-}
+  margin: auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 75%;
+  margin-bottom: 50px; }
 
 th, td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-}
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center; }
 
 th {
-    background-color: lightgray;
-}
+  background-color: lightgray; }
 
 .jumbohead {
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
+  padding-top: 20px;
+  padding-bottom: 50px; }
 
 #intro {
-    text-align: center;
-}
+  text-align: center; }
 
 .jumbo-container {
-    margin: 50px;
-}
+  margin: 50px; }
 
 .lakers {
-    background-image: linear-gradient(to right, #552583 45%, #FDB927)
-}
+  background-image: linear-gradient(to right, #552583 45%, #FDB927); }
 
 .bulls {
-    background-image: linear-gradient(to right, #CE1141 40%, black)
-}
+  background-image: linear-gradient(to right, #CE1141 40%, black); }
 
 .jazz {
-    background-image: linear-gradient(to right, #002B5C 40%, #00471B)
-}
+  background-image: linear-gradient(to right, #3E2680 40%, #6CAEDF); }
 
 .cavs {
-    background-image: linear-gradient(to right, #6F263D 40%, #041E42)
-}
+  background-image: linear-gradient(to right, #6F263D 40%, #FFB81C); }
 
 .info {
-    border: 2px solid black;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background: white;
-    font-size: 18px;
-    margin-top: 50px;
-    padding: 15px;
-}
+  border: 2px solid black;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 15px; }
 
 .photoframe {
-    border: 2px solid black;
-    width: 400px;
-    height: auto;
-    margin-top: 50px;
-}
+  width: 400px;
+  height: auto;
+  margin-top: 50px; }
 
 img {
-    width: 100%;
-    height: auto;
-}
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px; }
 
 #mynav {
-    background: black;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-}
+  background: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px; }
 
 #mynav a:link {
-    color: white;
-}
+  color: white; }
 
 #mynav a:visited {
-    color: white;
-}
+  color: white; }
 
-.info h1,small{
-    color: grey;
-    text-align: center;
-}
+.info h1, small {
+  color: grey;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

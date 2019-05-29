@@ -15,7 +15,7 @@
 
 cssfile.cscc
 
-$variable_name: proprty;
+$variable_name: property;
 
 ul {
 	font-size: 14px;
@@ -27,3 +27,9 @@ ol {
 	color: variable_name;
 	
 }
+
+To compile -          sass filename.scss filename.css                    will create or overwrite the filename
+
+To watch the file and recompile automatically -          sass --watch filename.scss:filename.css
+
+
