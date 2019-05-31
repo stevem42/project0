@@ -46,23 +46,56 @@ th {
     margin: $margin-top;
 }
 
-.lakers {
-    background-image: linear-gradient(to right, #552583 45%, #FDB927)
+@media (min-width: 500px) {
+    .lakers {
+        background-image: linear-gradient(to right, $lakers-c 45%, #FDB927)
+    }
+}
+@media (min-width: 500px) {
+    .bulls {
+        background-image: linear-gradient(to right, $bulls-c 45%, black)
+    }
 }
 
-.bulls {
-    background-image: linear-gradient(to right, #CE1141 40%, black)
+@media (min-width: 500px) {
+    .cavs {
+        background-image: linear-gradient(to right, $cavs-c 45%, #FFB81C)
+    }
 }
 
-.jazz {
-    background-image: linear-gradient(to right, #3E2680 40%, #6CAEDF)
+@media (min-width: 500px) {
+    .jazz {
+        background-image: linear-gradient(to right, $jazz-c 45%, #6CAEDF)
+    }
 }
 
-.cavs {
-    background-image: linear-gradient(to right, #6F263D 40%, #FFB81C)
+@media (max-width: 499px) {
+    .lakers {
+        background-image: linear-gradient(to bottom, $lakers-c 45%, #FDB927)
+    }
 }
 
-.info {
+@media (max-width: 499px) {
+    .bulls {
+        background-image: linear-gradient(to bottom, $bulls-c 45%, black)
+    }
+}
+
+@media (max-width: 499px) {
+    .cavs {
+        background-image: linear-gradient(to bottom, $cavs-c 45%, #FFB81C)
+    }
+}
+
+@media (max-width: 499px) {
+    .jazz {
+        background-image: linear-gradient(to bottom, $jazz-c 45%, #6CAEDF)
+    }
+}
+
+
+
+%info {
     border: 2px solid black;
     width: 100%;
     height: auto;
@@ -71,15 +104,40 @@ th {
     font-size: 18px;
     margin-top: $margin-top;
     padding: 15px;
+}
 
+.lakers-info {
+    @extend %info;
     li {
-        color: blue;
+        color: $lakers-c;
+    }
+}
+
+.bulls-info {
+    @extend %info;
+    li {
+        color: $bulls-c;
+    }
+}
+
+.jazz-info {
+    @extend %info;
+    li {
+        color: $jazz-c;
+    }
+}
+
+.cavs-info {
+    @extend %info;
+    li {
+        color: $cavs-c;
     }
 }
 
 .photoframe {
-    width: 400px;
+    width: 100%;
     height: auto;
+    margin: 0 auto;
     margin-top: $margin-top;
 
 }
@@ -87,6 +145,7 @@ th {
 img {
     width: 100%;
     height: auto;
+    margin: 0 auto;
     margin-bottom: $margin-top;
 }
 

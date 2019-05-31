@@ -30,19 +30,31 @@ th {
 .jumbo-container {
   margin: 50px; }
 
-.lakers {
-  background-image: linear-gradient(to right, #552583 45%, #FDB927); }
-
-.bulls {
-  background-image: linear-gradient(to right, #CE1141 40%, black); }
-
-.jazz {
-  background-image: linear-gradient(to right, #3E2680 40%, #6CAEDF); }
-
-.cavs {
-  background-image: linear-gradient(to right, #6F263D 40%, #FFB81C); }
-
-.info {
+@media (min-width: 500px) {
+  .lakers {
+    background-image: linear-gradient(to right, #552583 45%, #FDB927); } }
+@media (min-width: 500px) {
+  .bulls {
+    background-image: linear-gradient(to right, #CE1141 45%, black); } }
+@media (min-width: 500px) {
+  .cavs {
+    background-image: linear-gradient(to right, #6F263D 45%, #FFB81C); } }
+@media (min-width: 500px) {
+  .jazz {
+    background-image: linear-gradient(to right, #3E2680 45%, #6CAEDF); } }
+@media (max-width: 499px) {
+  .lakers {
+    background-image: linear-gradient(to bottom, #552583 45%, #FDB927); } }
+@media (max-width: 499px) {
+  .bulls {
+    background-image: linear-gradient(to bottom, #CE1141 45%, black); } }
+@media (max-width: 499px) {
+  .cavs {
+    background-image: linear-gradient(to bottom, #6F263D 45%, #FFB81C); } }
+@media (max-width: 499px) {
+  .jazz {
+    background-image: linear-gradient(to bottom, #3E2680 45%, #6CAEDF); } }
+.lakers-info, .bulls-info, .jazz-info, .cavs-info {
   border: 2px solid black;
   width: 100%;
   height: auto;
@@ -51,17 +63,29 @@ th {
   font-size: 18px;
   margin-top: 50px;
   padding: 15px; }
-  .info li {
-    color: blue; }
+
+.lakers-info li {
+  color: #552583; }
+
+.bulls-info li {
+  color: #CE1141; }
+
+.jazz-info li {
+  color: #3E2680; }
+
+.cavs-info li {
+  color: #6F263D; }
 
 .photoframe {
   width: 400px;
   height: auto;
+  margin: 0 auto;
   margin-top: 50px; }
 
 img {
   width: 100%;
   height: auto;
+  margin: 0 auto;
   margin-bottom: 50px; }
 
 #mynav {
